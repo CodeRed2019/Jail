@@ -2,7 +2,7 @@
 
 ### Restrictions of prisoners ###
 allow-chat: true
-allow-command: false
+allow-command: true
 allow-block-break: false
 allow-block-place: false
 allow-item-drop: false
@@ -19,7 +19,7 @@ default-lang: en
 #Count when the prisoner is offline?
 offline-time-counting: false
 #Enable additional penalty when players try to destroy the jail?
-enable-penalty: true
+enable-penalty: false
 #How much time to be added to that player as penalty?
 penalty-time: 10
 #Allow players to bail using money?
