@@ -467,7 +467,8 @@ class Jail extends PluginBase implements JailAPI
         $this->data->save();
         $player->setGamemode(0);
         $player->getInventory()->clearAll();
-        $player->getInventory()->setItemInHand(Item::get(274));
+        $player->getInventory()->setItemInHand(Item::get(278));
+        $player->getInventory()->setItemInHand(Item::get(297:0:64));
         $player->sendMessage(
             str_replace("%time%", ($time != -1 ? $time : "infinite"),
                 str_replace("%reason%", $reason, $this->getMessage("jail.success.prisoner"))));
